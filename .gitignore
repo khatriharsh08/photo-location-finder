@@ -1,7 +1,8 @@
-# Ignore dependencies
+@"
 node_modules/
 .next/
 dist/
 build/
-# Ignore environment variables
 .env
+.env.*
+"@ | Out-File -Encoding utf8 .gitignore
